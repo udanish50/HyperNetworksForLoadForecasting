@@ -8,7 +8,6 @@ import pandas as pd
 import plotly.graph_objects as go
 import torch
 from torch.utils.data import DataLoader
-from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import MinMaxScaler
 
 def minmax_scale(tensor):

@@ -10,7 +10,6 @@ import torch
 from torch.utils.data import DataLoader
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import MinMaxScaler
-from openpyxl import Workbook
 
 def minmax_scale(tensor):
     tensor_min = tensor.min()
